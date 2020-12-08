@@ -1,0 +1,58 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.fotos.CadastroActivity"
+        android:orientation="vertical" android:padding="16dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Cadastro de Fotos"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+    <EditText
+            android:id="@+id/Edtalbum_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Id Album"  />
+
+    <EditText
+            android:id="@+id/Edtid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Id"  />
+
+    <EditText
+            android:id="@+id/EdtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titulo" />
+
+    <EditText
+            android:id="@+id/Edturl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL" />
+
+    <EditText
+            android:id="@+id/Edtthumbnail_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Thumbnail URL" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_menu_save"/>
+
+</LinearLayout>
