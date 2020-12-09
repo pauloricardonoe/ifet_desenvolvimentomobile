@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">atividade2</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="unidade_origem">Origem</string>
+    <string name="unidade_destino">Destino</string>
+    <string name="calcular">Calcular</string>
+
+    <string-array name="unidmedidas">
+        <item>MM</item>
+        <item>CM</item>
+        <item>DM</item>
+        <item>M</item>
+        <item>DAM</item>
+        <item>HM</item>
+        <item>KM</item>
+    </string-array>
+</resources>
